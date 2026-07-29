@@ -1,4 +1,16 @@
 aid: jobpal
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jobpal.png
 name: JobPal
 description: JobPal is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
   network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -23,3 +35,11 @@ maintainers:
 common:
 - type: Website
   url: https://jobpal.ai
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: jobpal.ai domain is defunct (301-redirects to an unrelated link-aggregator);
+    JobPal was acquired by SmartRecruiters in 2019. No live API surface, docs host,
+    or spec to enrich. WebFetch probe completed; no artifacts created.
